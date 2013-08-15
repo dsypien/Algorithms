@@ -8,10 +8,8 @@ namespace Algorithms.Sort
 {
     public static class InsertionSort
     {
-        public static List<int> Sort (IEnumerable<int> collection)
+        public static List<int> Sort (List<int> list)
         {
-            List<int> list = collection.ToList();
-
             for (int i = 1; i < list.Count ; i++)
             {
                 int key = list[i];

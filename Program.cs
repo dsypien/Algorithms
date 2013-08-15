@@ -13,6 +13,8 @@ namespace Algorithms
             List<int> unsortedList = GetUnsortedList();
 
             var insertionSortResult = InsertionSort.Sort(unsortedList);
+            var mergeSortResult = MergeSort.Sort(unsortedList);
+            var quickSortResult = QuickSort.Sort(unsortedList);
             Console.WriteLine("blah");
         }
 
